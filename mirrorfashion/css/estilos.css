@@ -1,33 +1,20 @@
- /* testando e definindo cores nos paragrafos
-p {
-    color: blue;
-    background-color: yellow;
-}
-
-p {
-    text-align: left;  identar a esquerda 
-    line-height: 30px;   tamanho da altura de cada linha 
-    letter-spacing: 3px;  tamanho do espaço entre cada letra 
-    word-spacing: 5px;   tamanho do espaço entre cada palavra 
-    text-indent: 30px;   tamanho da margem da primeira linha do texto 
-}
-
-  definindo a fonte 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-}
-
-  definindo as bordas 
-body {
-    border: 1px solid red;
-}
-
-  deixando o fundo ridículo 
-body {
-    background: gold;
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    }
+    .menu-opcoes ul {
+    font-size: 15px;
+    }
+    .menu-opcoes a {
+    color: #003366;
     }
 
-h1 {
-    background-image: url(../img/sobre-background.jpg);
-}  */
+    body {
+        color: #333333;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
